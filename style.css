@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+        * { font-family: 'Fredericka the Great', cursive}
+        .container{margin: 30px auto; width: 550px; height: 900px; background: url(./img/guitar2.jpg);}
+        h1 { text-align: center; padding-top: 30px; font-size: 30px;}
+        #words{margin: 0px auto;}
+        .word{ 
+            background: #ffffff;
+            border-radius: 10px;
+            width: 55px;
+            height: 55px;
+            font-size: 30px;
+            text-align: center;
+            color: #fff;}
+
+        #hint{
+            position: absolute;
+            background-color: #fffffe58;
+            border-radius: 50px;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 40px;
+            margin-left: 450px;
+        }
+
+        #hint:hover{
+            background-color: #F2B445;  
+            border-radius: 50px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        .panel{
+            position: relative;
+            height: 60px;
+            width: fit-content;
+            margin: 90px auto;
+            font-size: 50px;
+            color: #fff;
+            text-align: center;
+        }
+
+        #panel{
+            background-color: #efbb6076;
+            border-radius: 20px;
+        }
+
+        .letters{
+            position: relative;
+            width: 250px;
+            height: 250px;
+            border-radius: 250px;
+            background: #d9d4d43c;
+            margin: -60px auto;
+        }
+
+        #l1 {
+            position: absolute;
+            /*background-color: rgb(239, 187, 96);*/
+            width: 55px;
+            height: 55px;
+            left:95px;
+            top: 10px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        #l2 {
+            position: absolute;
+            /*background-color: rgb(239, 187, 96);*/
+            width: 55px;
+            height: 55px;
+            left:25px;
+            top: 65px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        #l3 {
+            position: absolute;
+            /*background-color: rgb(239, 187, 96);*/
+            width: 55px;
+            height: 55px;
+            left:175px;
+            top: 65px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        #l4 {
+            position: absolute;
+            /*background-color: rgb(239, 187, 96);*/
+            width: 55px;
+            height: 55px;
+            left:25px;
+            top: 145px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        #l5 {
+            position: absolute;
+            /*background-color: rgb(239, 187, 96);*/
+            width: 55px;
+            height: 55px;
+            left:172px;
+            top: 145px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+
+        #l6 {
+            position: absolute;
+            /*background-color: rgb(239, 187, 96);*/
+            width: 55px;
+            height: 55px;
+            left:95px;
+            top: 190px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 50px;
+            color: #ffffff;
+            border-radius: 100px;
+        }
+        .shuffle{
+            position: absolute;
+            margin: 100px 105px;
+            padding: 5px;
+        }
+        #shuffle {
+            font-size: 35px;
+            background: none;
+            border-style: none;
+        }
+        #shuffle:hover{
+            background: #F2B445;  
+            border-radius: 50px;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        #hint,#l1:hover,#l2:hover,#l3:hover,#l4:hover,#l5:hover,#l6:hover{ cursor: pointer;}
