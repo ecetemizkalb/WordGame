@@ -1,1 +1,1 @@
-A word game written with JQuery.
+A word game implemented in JavaScript using the jQuery library.
